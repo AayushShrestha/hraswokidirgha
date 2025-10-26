@@ -472,11 +472,6 @@ const words = [
         "correct": "hraswa"
     },
     {
-        "hraswa": "हुरी",
-        "dirgha": "हुरी",
-        "correct": "dirgha"
-    },
-    {
         "hraswa": "कीरा",
         "dirgha": "किरा",
         "correct": "dirgha"
