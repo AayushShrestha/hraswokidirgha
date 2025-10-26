@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ह्रस्व की दीर्घ - Hraswa ki Dirgha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <h1 class="title">ह्रस्व की दीर्घ</h1>
+            <p class="subtitle">Hraswa ki Dirgha</p>
+            
+            <div class="rules-container">
+                <h2>खेल नियम</h2>
+                <ul class="rules-list">
+                    <li>एक नेपाली शब्द देखाइन्छ</li>
+                    <li>सो शब्दलाई मा क्लिक गरेर ह्रस्व र दीर्घ बीच टगल गर्नुहोस्</li>
+                    <li>सही प्रकार रोज्नुहोस् र १ अंक पाउनुहोस्</li>
+                    <li>गलत प्रकार रोज्दा खेल खतम हुन्छ</li>
+                </ul>
+                
+                <h3>खेलको प्रकार:</h3>
+                <ul class="rules-list">
+                    <li><strong>सजिलो:</strong> समय सीमा छैन</li>
+                    <li><strong>मध्यम:</strong> प्रत्येक शब्दको लागि १५ सेकेन्ड</li>
+                    <li><strong>गाह्रो:</strong> प्रत्येक शब्दको लागि १० सेकेन्ड</li>
+                </ul>
+            </div>
+            
+            <div class="mode-selector">
+                <button class="mode-btn" data-mode="easy">सजिलो</button>
+                <button class="mode-btn" data-mode="medium">मध्यम</button>
+                <button class="mode-btn" data-mode="hard">गाह्रो</button>
+            </div>
+            
+            <button id="start-btn" class="start-btn" disabled>खेल सुरु गर्नुहोस्</button>
+        </div>
+        
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="score"><span id="score">0</span></div>
+                <div class="timer-container" id="timer">
+                    <svg class="timer-circle" viewBox="0 0 120 120">
+                        <circle class="timer-circle-bg" cx="60" cy="60" r="54"></circle>
+                        <circle class="timer-circle-progress" cx="60" cy="60" r="54"></circle>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="word-card" id="word-card">
+                <span id="word-display" class="word-display"></span>
+            </div>
+            
+            <div class="buttons-container">
+                <button id="hraswa-btn" class="answer-btn">ह्रस्व</button>
+                <button id="dirgha-btn" class="answer-btn">दीर्घ</button>
+            </div>
+        </div>
+        
+        <!-- Game Over Screen -->
+        <div id="gameover-screen" class="screen">
+            <h1 class="title">खेल समाप्त</h1>
+            <div class="final-score">
+                <p>तपाईंको अंक: <span id="final-score">0</span></p>
+                <button id="play-again-btn" class="start-btn">फेरि खेल्नुहोस्</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="words.encoded.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
