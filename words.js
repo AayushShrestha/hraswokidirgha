@@ -472,11 +472,6 @@ const words = [
         "correct": "hraswa"
     },
     {
-        "hraswa": "हुरी",
-        "dirgha": "हुरी",
-        "correct": "dirgha"
-    },
-    {
         "hraswa": "कीरा",
         "dirgha": "किरा",
         "correct": "dirgha"
@@ -565,5 +560,390 @@ const words = [
         "hraswa": "युग",
         "dirgha": "यूग",
         "correct": "hraswa"
-    }
+    },
+    {
+    "hraswa": "केटि",
+    "dirgha": "केटी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "श्रीमति",
+    "dirgha": "श्रीमती",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "रानि",
+    "dirgha": "रानी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "कुमारि",
+    "dirgha": "कुमारी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "सासु",
+    "dirgha": "सासू",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "भाउजु",
+    "dirgha": "भाउजू",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "गाइ",
+    "dirgha": "गाई",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "भैंसि",
+    "dirgha": "भैंसी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "काकि",
+    "dirgha": "काकी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "तिमि",
+    "dirgha": "तिमी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "उनि",
+    "dirgha": "उनी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "तिनि",
+    "dirgha": "तिनी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "यिनि",
+    "dirgha": "यिनी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "कोहि",
+    "dirgha": "कोही",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "केहि",
+    "dirgha": "केही",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "आफु",
+    "dirgha": "आफू",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "राम्रि",
+    "dirgha": "राम्री",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "कालि",
+    "dirgha": "काली",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "गोरि",
+    "dirgha": "गोरी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "सुनदरि",
+    "dirgha": "सुन्दरी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "धनि",
+    "dirgha": "धनी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "परिश्रमि",
+    "dirgha": "परिश्रमी",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "दाजु",
+    "dirgha": "दाजू",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "गुरु",
+    "dirgha": "गुरू",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पति",
+    "dirgha": "पती",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "नाति",
+    "dirgha": "नाती",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पुल",
+    "dirgha": "पूल",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "मुख",
+    "dirgha": "मूख",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "सुख",
+    "dirgha": "सूख",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "दुख",
+    "dirgha": "दूख",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "सुन",
+    "dirgha": "सून",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "मुटु",
+    "dirgha": "मूटु",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पशु",
+    "dirgha": "पशू",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पिठो",
+    "dirgha": "पीठो",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "तितो",
+    "dirgha": "तीतो",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पिरो",
+    "dirgha": "पीरो",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "सित्तै",
+    "dirgha": "सीत्तै",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "सहिद",
+    "dirgha": "शहीद",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पुलिस",
+    "dirgha": "पुलीस",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "अफिस",
+    "dirgha": "अफीस",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "गरिब",
+    "dirgha": "गरीब",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "स्कुल",
+    "dirgha": "स्कूल",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "अघि",
+    "dirgha": "अघी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पछि",
+    "dirgha": "पछी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "माथि",
+    "dirgha": "माथी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "मुनि",
+    "dirgha": "मुनी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पनि",
+    "dirgha": "पनी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "अनि",
+    "dirgha": "अनी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "भोलि",
+    "dirgha": "भोली",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पर्सि",
+    "dirgha": "पर्सी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "गति",
+    "dirgha": "गती",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "स्थिति",
+    "dirgha": "स्थीति",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "भूमि",
+    "dirgha": "भूमी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "सृष्टि",
+    "dirgha": "सृष्टी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "दृष्टि",
+    "dirgha": "दृष्टी",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "प्रकृति",
+    "dirgha": "प्रकृती",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "पीडित",
+    "dirgha": "पीडीत",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "शिक्षित",
+    "dirgha": "शिक्षीत",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "लिखित",
+    "dirgha": "लिखीत",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "सामाजिक",
+    "dirgha": "सामाजीक",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "राजनीतिक",
+    "dirgha": "राजनीतीक",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "धार्मिक",
+    "dirgha": "धार्मीक",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "दैनिक",
+    "dirgha": "दैनीक",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "फुल",
+    "dirgha": "फूल",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "दुध",
+    "dirgha": "दूध",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "मुल",
+    "dirgha": "मूल",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "ठुलो",
+    "dirgha": "ठूलो",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "धुलो",
+    "dirgha": "धूलो",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "पुरा",
+    "dirgha": "पूरा",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "जुन",
+    "dirgha": "जून",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "ठिक",
+    "dirgha": "ठीक",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "झिलिमिलि",
+    "dirgha": "झीलीमीली",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "टुलुटुलु",
+    "dirgha": "टूलूटूलू",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "बिच",
+    "dirgha": "बीच",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "गहिरो",
+    "dirgha": "गहीरो",
+    "correct": "hraswa"
+  },
+  {
+    "hraswa": "बिउ",
+    "dirgha": "बीउ",
+    "correct": "dirgha"
+  },
+  {
+    "hraswa": "नुन",
+    "dirgha": "नून",
+    "correct": "hraswa"
+  }
 ];
