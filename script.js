@@ -145,6 +145,8 @@ $(document).ready(function() {
             this.score = 0;
             this.currentWordIndex = -1;
             this.switchScreen('game');
+            // show neutral teacher at start
+            this.setTeacherState && this.setTeacherState('normal');
             this.loadNextWord();
         },
         
@@ -154,6 +156,8 @@ $(document).ready(function() {
             this.currentForm = 'hraswa';
             this.displayWord();
             this.updateScore();
+            // reset teacher to neutral for new word
+            this.setTeacherState && this.setTeacherState('normal');
             this.startTimer();
         },
         
@@ -184,9 +188,11 @@ $(document).ready(function() {
             if (selectedAnswer === correctAnswer) {
                 // Correct answer
                 SoundManager.playCorrectSound();
+                // show smirk for correct
+                this.setTeacherState && this.setTeacherState('smirk');
                 this.score++;
                 this.updateScore();
-                
+
                 // Load next word immediately
                 setTimeout(() => {
                     this.loadNextWord();
@@ -194,6 +200,8 @@ $(document).ready(function() {
             } else {
                 // Wrong answer - game over
                 SoundManager.playWrongSound();
+                // show angry for wrong
+                this.setTeacherState && this.setTeacherState('angry');
                 setTimeout(() => {
                     this.gameOver();
                 }, 500);
@@ -273,6 +281,31 @@ $(document).ready(function() {
                 $('.score').removeClass('score-updated');
             }, 500);
         },
+
+        // Set teacher image based on state: 'normal' | 'smirk' | 'angry'
+        setTeacherState: function(state) {
+            try {
+                const img = $('#teacher-img');
+                if (!img || img.length === 0) return;
+
+                const map = {
+                    normal: 'public/normal_teacher.png',
+                    smirk: 'public/smirk_teacher.png',
+                    angry: 'public/angry_teacher.png'
+                };
+
+                const src = map[state] || map.normal;
+                img.attr('src', src);
+                img.attr('alt', `Teacher: ${state}`);
+
+                // small reaction animation
+                img.addClass('react');
+                setTimeout(() => img.removeClass('react'), 500);
+            } catch (e) {
+                // Fail silently if jQuery isn't available or element missing
+                console.warn('setTeacherState error', e);
+            }
+        },
         
         gameOver: function() {
             this.stopTimer();
@@ -293,7 +326,8 @@ $(document).ready(function() {
             $('#start-btn').prop('disabled', true);
             $('.timer-circle-progress').removeClass('warning animated');
             $('.timer-circle-progress').css('stroke-dashoffset', 0);
-            
+            // reset teacher to neutral
+            this.setTeacherState && this.setTeacherState('normal');
             this.switchScreen('welcome');
         },
         
