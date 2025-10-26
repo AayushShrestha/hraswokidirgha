@@ -187,11 +187,6 @@ const words = [
         "correct": "dirgha"
     },
     {
-        "hraswa": "तुलना",
-        "dirgha": "तुलना",
-        "correct": "hraswa"
-    },
-    {
         "hraswa": "रसीद",
         "dirgha": "रसिद",
         "correct": "dirgha"
@@ -344,11 +339,6 @@ const words = [
     {
         "hraswa": "राखी",
         "dirgha": "राखि",
-        "correct": "dirgha"
-    },
-    {
-        "hraswa": "लुरी",
-        "dirgha": "लुरी",
         "correct": "dirgha"
     },
     {
@@ -522,11 +512,6 @@ const words = [
         "correct": "dirgha"
     },
     {
-        "hraswa": "हामी",
-        "dirgha": "हामी",
-        "correct": "dirgha"
-    },
-    {
         "hraswa": "उचित",
         "dirgha": "ऊचित",
         "correct": "hraswa"
@@ -540,11 +525,6 @@ const words = [
         "hraswa": "तुलसी",
         "dirgha": "तुलसि",
         "correct": "dirgha"
-    },
-    {
-        "hraswa": "दिमाग",
-        "dirgha": "दिमाग",
-        "correct": "hraswa"
     },
     {
         "hraswa": "विदेशी",
