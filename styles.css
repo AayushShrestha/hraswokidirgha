@@ -251,7 +251,6 @@ body {
     gap: 20px;
     justify-content: center;
 }
-
 .answer-btn {
     flex: 1;
     padding: 20px;
@@ -324,7 +323,7 @@ body {
     }
     
     .word-display {
-        font-size: 6em;
+        font-size: clamp(2.5rem, 16vw, 5.5rem);
     }
     
     .answer-btn {
@@ -335,5 +334,36 @@ body {
     .buttons-container {
         flex-direction: column;
     }
+}
+
+/* Teacher image placed outside the main game window */
+.teacher-outside {
+    position: absolute;
+    /* move closer to center (less extreme right) */
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* don't block clicks on smaller viewports */
+}
+
+.teacher-outside img {
+    width: 220px; /* slightly bigger */
+    max-width: 26vw;
+    height: auto;
+    display: block;
+    /* remove box/outline */
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+    transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.teacher-outside img.react {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1100px) {
+    /* hide outside image on small screens so it doesn't overlap */
+    .teacher-outside { display: none; }
 }
 
