@@ -44,6 +44,7 @@
         <div id="game-screen" class="screen">
             <div class="game-header">
                 <div class="score"><span id="score">0</span></div>
+
                 <div class="timer-container" id="timer">
                     <svg class="timer-circle" viewBox="0 0 120 120">
                         <circle class="timer-circle-bg" cx="60" cy="60" r="54"></circle>
@@ -51,7 +52,7 @@
                     </svg>
                 </div>
             </div>
-            
+
             <div class="word-card" id="word-card">
                 <span id="word-display" class="word-display"></span>
             </div>
@@ -70,6 +71,10 @@
                 <button id="play-again-btn" class="start-btn">फेरि खेल्नुहोस्</button>
             </div>
         </div>
+    </div>
+    <!-- Teacher image sits outside the main game container so it doesn't affect layout -->
+    <div class="teacher-outside" aria-hidden="true">
+        <img id="teacher-img" src="public/normal_teacher.png" alt="Teacher feedback">
     </div>
     
     <script src="words.encoded.js"></script>
