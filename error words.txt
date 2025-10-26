@@ -1,0 +1,7 @@
+Total words: 189
+Entries where hraswa === dirgha: 4
+List:
+#37: hraswa="तुलना", dirgha="तुलना", correct="hraswa"
+#69: hraswa="लुरी", dirgha="लुरी", correct="dirgha"
+#104: hraswa="हामी", dirgha="हामी", correct="dirgha"
+#108: hraswa="दिमाग", dirgha="दिमाग", correct="hraswa"

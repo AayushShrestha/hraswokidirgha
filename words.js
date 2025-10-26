@@ -947,3 +947,9 @@ const words = [
     "correct": "hraswa"
   }
 ];
+
+
+// Make `words` available to Node `require()` calls.
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = words;
+}
